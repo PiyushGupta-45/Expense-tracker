@@ -745,7 +745,7 @@
                                             <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
                                                 <span className="text-slate-700 font-medium">Lowest Single Expense</span>
                                                 <span className="font-bold text-green-600">
-                                                    ${filteredExpenses.length > 0 ? Math.min(...filteredExpenses.map(e => e.amount)).toFixed(2) : '0.00'}
+                                                    ₹{filteredExpenses.length > 0 ? Math.min(...filteredExpenses.map(e => e.amount)).toFixed(2) : '0.00'}
                                                 </span>
                                             </div>
                                             <div className="flex justify-between items-center p-3 bg-purple-50 rounded-lg">
