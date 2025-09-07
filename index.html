@@ -799,42 +799,6 @@
             );
         };
 
-        // Sample data for demonstration
-        const sampleExpenses = [
-            {
-                id: 1,
-                description: "Groceries at Whole Foods",
-                amount: 87.50,
-                category: "food",
-                date: "2024-01-15",
-                createdAt: "2024-01-15T10:30:00Z"
-            },
-            {
-                id: 2,
-                description: "Gas for car",
-                amount: 45.20,
-                category: "transport",
-                date: "2024-01-14",
-                createdAt: "2024-01-14T08:15:00Z"
-            },
-            {
-                id: 3,
-                description: "Movie tickets",
-                amount: 25.00,
-                category: "entertainment",
-                date: "2024-01-13",
-                createdAt: "2024-01-13T19:45:00Z"
-            },
-            {
-                id: 4,
-                description: "Electric bill",
-                amount: 120.75,
-                category: "bills",
-                date: "2024-01-12",
-                createdAt: "2024-01-12T14:20:00Z"
-            }
-        ];
-
         // Initialize with sample data if no existing data
         const initializeApp = () => {
             const existingData = localStorage.getItem('expenseTracker_expenses');
